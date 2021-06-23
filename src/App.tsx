@@ -22,7 +22,7 @@ function App() {
   const [user, setUser] = useState<User>();
 
   useEffect(() => {
-    auth.onAuthStateChanged(userLogIn => {
+    const unsubscribe = auth.onAuthStateChanged(userLogIn => {
       if (userLogIn) {
         const { displayName, photoURL, uid } = userLogIn;
 
@@ -37,6 +37,10 @@ function App() {
         });
       }
     });
+
+    return () => {
+      unsubscribe();
+    };
   }, []);
 
   async function signInWithGoogle() {
