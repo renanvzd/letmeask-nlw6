@@ -39,6 +39,7 @@
         "import/no-duplicates": "off",
         "react/button-has-type": "off",
         "react/destructuring-assignment": "off",
+        "react/require-default-props": "off",
         "no-shadow": "off",
         "no-console": "off",
         "react/jsx-filename-extension": [
