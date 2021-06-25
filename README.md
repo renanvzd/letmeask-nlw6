@@ -3,12 +3,17 @@
 
  ## <div align="center">Demonstração</div>
  <div align="center">Conheça o site:
- <h2><a href="https://letmeask-3425a.web.app/">Let me Ask</a></h2></div>
+  <h2>
+      <a href="https://letmeask-3425a.web.app/">
+        <p align="center">
+          <img alt="Letmeask" src=".github/logo.svg" width="160px">
+        </p>
+      </a>
+  </h2>
+</div>
 
 
-<p align="center">
-  <img alt="Letmeask" src=".github/logo.svg" width="160px">
-</p>
+
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=8257E5&labelColor=000000" alt="NLW Together 06" />
