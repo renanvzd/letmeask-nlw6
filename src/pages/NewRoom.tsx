@@ -36,13 +36,14 @@ export function NewRoom() {
           src={illustrationImg}
           alt="Ilustração simbolizando perguntas e respostas"
         />
-        <strong>Crie sua sala de Q&amp; ao vivo</strong>
+        <strong>Crie sua sala de chat ao vivo</strong>
         <p>Tire as dúvidas da sua audiência em tempo-real</p>
       </aside>
       <main>
         <div className="main-content">
           <img src={logoImg} alt="Letmeask" />
-          <h2>Criar uma nova sala</h2>
+          <h1>Olá {user?.name}</h1>
+          <h2>Informe o nome da sala</h2>
           <form onSubmit={handleCreateRoom}>
             <input
               type="text"
